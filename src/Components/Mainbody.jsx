@@ -68,7 +68,7 @@ const Mainbody = () => {
       <h1 className=' text-xl tracking-tighter'>{user.title}</h1>
       <h5>Go to Project:</h5>
      <a className="flex flex-row items-center text-lg underline" href={user.link} >
-    <img className="h-5 w-5" src="src/assets/maximize.png" alt="Open" />
+    <img className="h-5 w-5" src="/maximize.png" alt="Open" />
     <p className=" overflow-hidden break-words">{user.tink}</p>
     </a>
 
